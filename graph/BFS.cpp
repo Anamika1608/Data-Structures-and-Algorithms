@@ -16,7 +16,7 @@ void bfs(int node, vector<int> adj[], vector<int>& ans, vector<bool>& v) {
                 q.push(it);
                 v[it] = true;
             }
-        }
+        } 
     }
     return;
 }
