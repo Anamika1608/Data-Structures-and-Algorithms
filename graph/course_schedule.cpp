@@ -1,3 +1,5 @@
+// detect the cycle using dfs - because if the graph has cycle - then no topo sorting and course scheduling possible
+
 class Solution {
 public:
     bool dfs(int node, vector<vector<int>>& adj, vector<int>& color) {

@@ -15,6 +15,7 @@ int sum(int arr[] , int n , int ans){
 
 int main(){
     int ans = 0;
+
     int array[5] = {1,3,3,4,5};
     cout << sorted(array,0,5) << endl ;
     cout << sum(array,5,ans) << endl;
